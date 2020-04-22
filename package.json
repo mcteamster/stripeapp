@@ -1,0 +1,26 @@
+{
+  "name": "stripe",
+  "version": "1.0.0",
+  "description": "Stripe Test App",
+  "main": "model/app.js",
+  "dependencies": {
+    "@stripe/react-stripe-js": "^1.1.2",
+    "@stripe/stripe-js": "^1.4.0",
+    "express": "^4.17.1",
+    "stripe": "^8.44.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcteamster/stripeapp.git"
+  },
+  "author": "tonz.io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcteamster/stripeapp/issues"
+  },
+  "homepage": "https://github.com/mcteamster/stripeapp#readme"
+}

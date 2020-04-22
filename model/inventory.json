@@ -1,0 +1,23 @@
+{
+    "desciption":"inventory list for Stripe Web App",
+    "products":[
+        {
+            "name":"toilet paper",
+            "picture":"https://s3-ap-southeast-2.amazonaws.com/wc-prod-pim/JPEG_1000x1000/KI38004_scott_essential_jumbo_toilet_tissue_roll_2_ply_8_pack.jpg",
+            "price":99999,
+            "limit": 3
+        },
+        {
+            "name":"surgical mask",
+            "picture":"https://www.auptimalmobile.com.au/wp-content/uploads/2020/03/31yIuKQAczL._AC_SX466_.jpg",
+            "price":88888,
+            "limit": 4
+        },
+        {
+            "name":"hand sanitiser",
+            "picture":"https://cdn.shopify.com/s/files/1/1070/6400/products/5l-bulk-hand-sanitizer-rub-who-sanitiser-formula-ethanol-alcohol-glycerol-liquid-kemmie_1024x1024.jpg?v=1587044459",
+            "price":77777,
+            "limit": 5
+        }
+    ]
+}

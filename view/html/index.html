@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stripe Test App | tonz.io</title>
+        <link rel="stylesheet" href="../css/index.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://js.stripe.com/v3/"></script>
+
+    </head>
+
+    <body>
+      <div id="sitecontainer">
+        <div id="header" class="flex">
+          <h1 id="title">PANIC BUY TODAY!!!</h1>
+          <div id="checkout" class="flex">Checkout<br>$0.00</div>
+        </div>
+
+        <div id="shop" class="flex">
+          <ul id="products" class="flex"></ul>
+        </div>
+
+        <form id="payment-form">
+          <div id="server_total">Total Price: $0.00</div>
+
+          <!-- We'll put the error messages in this element -->
+          <div id="card-errors" role="alert"></div>
+
+          <div id="card-element">
+            <!-- Elements will create input elements here -->
+          </div>
+             
+          <button id="submit">Pay</button>
+        </form>
+
+        <div id="footer">
+          <p>Note: This is a test eCommerce storefront for the Stripe API. Please don't actually try to buy things with real money! | by <a href="https://tonz.io">tonz.io</a> 23.4.2020</p>
+        </div>
+      </div>
+      
+      <script src="../js/index.js"></script>
+    </body>
+</html>
