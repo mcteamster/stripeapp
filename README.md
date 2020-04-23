@@ -1,5 +1,6 @@
 # Stripe Test App
-## by Tony Zhang for Stripe
+### by Tony Zhang for Stripe
+#### 23.4.2020
 
 "Create a simple e-commerce app" - sure thing, this should be straightforward for a full-stack engineer...
 
