@@ -1,12 +1,12 @@
 # Stripe Test App
 ### by Tony Zhang for Stripe
-#### 23.4.2020
+#### 24.4.2020
 
 "Create a simple e-commerce app" - sure thing, this should be straightforward for a full-stack engineer...
 
 Hosted (for now) at my test domain: https://mcteamster.com 
 
-Or clone this repository and run `npm install`, paste your Stripe account's API Test Key into `/model/test_key.txt`, run `node /model/app.js`, and visit `http://localhost:80`
+Or clone this repository and run `npm install`, paste your Stripe account's Private API Test Key into `/model/test_key.txt`, enter your Public API Test Key into `/view/index.js`, run `node /model/app.js`, and visit `http://localhost:80`
 
 ### Approach
 As always, I begin by boiling down the requirements:

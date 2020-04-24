@@ -2,7 +2,7 @@
 // tonz.io
 
 // Load Stripe Elements
-var stripe = Stripe('pk_test_NXg5gmsRIajNh28510ot7unI00Yn02UZAZ');
+var stripe = Stripe('pk_test_NXg5gmsRIajNh28510ot7unI00Yn02UZAZ'); // Replace with your Public Test Key
 var elements = stripe.elements();
 
 // Variables
