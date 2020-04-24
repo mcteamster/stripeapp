@@ -38,6 +38,19 @@ app.get('/inventory', async (req,res) => {
 
 // Calculate Total and Return Secret
 app.post('/total', async (req,res) => {
-    var [server_total, intent] = await f.getTotal(req.body.inventory, req.body.intentID);
-    res.json({total: server_total, intentID: intent.id, client_secret: intent.client_secret});
+    try {
+        // Basic Type Validation
+        // TODO more sophisticated validation
+        inventory = req.body.inventory;
+        // Malformed Intent IDs result in a new intent being created
+        if(typeof inventory === 'object' && inventory !== null) {
+            var [server_total, intent] = await f.getTotal(req.body.inventory, req.body.intentID);
+            res.json({total: server_total, intentID: intent.id, client_secret: intent.client_secret});
+        } else {
+            throw err;
+        }
+    } catch(err) {
+        // Send 400 Error
+        res.sendStatus(400);
+    }
 });

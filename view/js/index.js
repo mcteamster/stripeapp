@@ -136,7 +136,7 @@ form.addEventListener('submit', function(ev) {
     if (result.error) {
       // Show error to your customer (e.g., insufficient funds)
       console.log(result.error.message);
-      $("#payment-form").html(`Payment Failed`);
+      $("#payment-form").html(`<p id="failure" onclick="location.reload();">Payment Failed<br><br>Click Here to Reload the Page</p>`);
     } else {
       // The payment has been processed!
       if (result.paymentIntent.status === 'succeeded') {

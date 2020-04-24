@@ -124,6 +124,10 @@ body {
   margin: 1em 0em;
 }
 
+#failure {
+  cursor: pointer;
+}
+
 #footer {
   background: #ccc;
   grid-area: d;
